@@ -1,0 +1,33 @@
+<html>
+<head>
+Â Â Â Â <script language="JavaScript">
+Â Â Â Â function greeting()
+Â Â Â Â {
+Â Â Â Â Â Â var name = prompt("Type your name");Â Â 
+Â Â Â Â Â Â document.all.fm1.question.value = "Welcome, "+name;Â 
+Â Â Â Â Â Â document.all.userName.style.visibility = "visible";
+Â Â Â Â }Â Â 
+Â Â Â Â </script>Â Â Â Â 
+</head>
+<body bgcolor =#EBF5FB>
+<center>
+<h1>Congratulations! Welcome to the Beagle Family!</h1\>
+<br/><img src =â€œ/Pictures/grad.jpgâ€>
+
+
+
+<p>Click here to <a href="index.html">return to SMIT homepage. </a>
+<br/><br/>
+
+<img src=â€œ/grad.jpg" width = "200" height = â€œ300â€/>
+
+<br/><br/>
+<form name="fm1">
+Â Â Â Â <div id=userName style="visibility:hidden; width='60'">
+Â Â Â Â Â Â Â Â <input type="text" name="question" size="40"/>
+Â Â Â Â </div>
+Â Â Â Â <br/><br/>
+Â Â Â Â <input type="button" value=â€œWelcomeâ€ onClick="greeting()"/>
+</form>
+</center>
+</body>
